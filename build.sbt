@@ -2,11 +2,11 @@ name := "spark-essentials"
 
 version := "0.1"
 
-scalaVersion := "2.12.10"
+scalaVersion := "2.13.12"
 
-val sparkVersion = "3.0.2"
+val sparkVersion = "3.5.0"
 val vegasVersion = "0.3.11"
-val postgresVersion = "42.2.2"
+val postgresVersion = "42.5.4"
 
 resolvers ++= Seq(
   "bintray-spark-packages" at "https://dl.bintray.com/spark-packages/maven",
